@@ -1,0 +1,18 @@
+body{
+    height: 50%;
+    position: relative;
+    margin: 0;
+    background: rgb(195, 194, 197);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+#iniciar {
+    border-radius: 70px;
+    font-size: medium;
+}
