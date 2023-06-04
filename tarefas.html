@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="agenda.css">
+</head>
+<body>
+    <h1>Olá! Bem-vindo a sua área de tarefas!</h1>
+    <h2>Cadastre suas tarefas aqui...</h2>
+    <ul class="campos">
+        <li><input type="text" placeholder="Digite seu nome" id="docente"></li>
+        <li><input type="text" placeholder="Digite sua carga horária semanal" id="time"></li>
+        <li><input type="text" placeholder="Digite sua atividade" id="atividade"></li>
+        <li><input type="text" placeholder="Digite o dia da semana" id="dias"></li>
+        <li><input type="time" placeholder="Digite o horário de início da atividade" id="horario1"></li>
+        <li><input type="time" placeholder="Digite o horário de encerramento da atividade" id="horario2"></li>
+    </ul>
+    
+    <input type="submit" id="iniciar" onclick="Verifica()" value="Cadastrar">
+    <script src="agenda.js"></script>
+</body>
+</html>
